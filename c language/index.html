@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nirav</title>
+  </head>
+  <style>
+    body {
+      position: relative;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      padding: 50px;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url("NAMEBG.png") center center/cover no-repeat;
+      z-index: -2;
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: -1;
+    }
+    .text-box {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      width: fit-content;
+    }
+    @keyframes moveLeft {
+      0% {
+        left: 50%;
+      }
+      100% {
+        left: -50%;
+      }
+    }
+    @keyframes slideRight {
+      0% {
+        left: -100px;
+        opacity: 0;
+      }
+      100% {
+        left: 0;
+        opacity: 1;
+      }
+    }
+    @keyframes fadeInZoom {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+  <body>
+    <div class="text-box">
+      <h1
+        style="
+          background-color: yellow;
+          color: black;
+          padding: 10px;
+          border-radius: 8px;
+          white-space: nowrap;
+          position: relative;
+          animation: moveLeft 8s linear infinite;
+        "
+      >
+        Welcome to My Website
+      </h1>
+      <p>
+        Nirav Sharma <b><u>Mechanical Engineer</u></b> |
+        <b><u>AutoCAD Designer</u></b> | <b><u>CNC Enthusiast</u></b>
+      </p>
+      <ul>
+        <li>
+          <u><b style="color: rgb(0, 255, 213)">About Me</b></u>
+        </li>
+      </ul>
+      <p>
+        Hello! I'm Nirav Sharma, a 20-year-old B.Tech Mechanical Engineering
+        student at Uttaranchal University, Dehradun. With a strong academic
+        foundation (CGPA of 7.85 in the first semester and 7.5 in the second),
+        I'm passionate about automobile design, machine designing, and modern
+        manufacturing technologies like CNC and EDM.
+      </p>
+      <p>
+        I specialize in AutoCAD 2D drafting and 3D modeling, and have earned
+        certified training in both. My creative designs and technical skills are
+        showcased on my YouTube channel, where I regularly upload project
+        demonstrations and tutorials. I also actively engage on LinkedIn to
+        present my skills, certifications, and project work.
+      </p>
+    </div>
+    <div id="cont">
+      <!-- ... rest of your content ... -->
+    </div>
+    <h2
+      style="
+        background-color: yellow;
+        color: black;
+        padding: 8px;
+        border-radius: 5px;
+        position: relative;
+        animation: slideRight 2s ease;
+      "
+    >
+      Social Links
+    </h2>
+    <p style="position: relative; animation: slideRight 2s ease">
+      Connect with me on:
+    </p>
+    <ul>
+      <li>
+        YouTube Channel Link:
+        <a
+          href="https://youtube.com/@niravsharma_caddesigner?si=@niravsharma_caddesigner?s"
+          target="_blank"
+          >Nirav Sharma CAD Designer</a
+        >
+      </li>
+      <li>
+        LinkedIn Profile:
+        <a
+          href="https://www.linkedin.com/in/nirav-sharma-123456789/"
+          target="_blank"
+          >Nirav Sharma</a
+        >
+      </li>
+      <li>
+        <span
+          style="
+            color: rgb(0, 247, 255);
+            font-weight: bold;
+            text-decoration: underline;
+          "
+          >contactMe On:-8146540929</span
+        >
+      </li>
+    </ul>
+    <div
+      style="
+        background: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      "
+    >
+      <h2 style="color: yellow">My Projects</h2>
+      <p>Explore my AutoCAD projects and designs.</p>
+      <ul>
+        <li>Project 1: Gear Design</li>
+        <li>Project 2: Star Blade</li>
+        <li>Project 3: Mechanical Part Modeling</li>
+      </ul>
+      <p>
+        For more details, visit my
+        <a href="https://www.youtube.com/channel/UCNiravSharma" target="_blank"
+          >YouTube Channel</a
+        >
+        or connect with me on
+        <a
+          href="https://www.linkedin.com/in/nirav-sharma-123456789/"
+          target="_blank"
+          >LinkedIn</a
+        >.
+      </p>
+    </div>
+    <h2
+      style="
+        background-color: yellow;
+        color: black;
+        padding: 8px;
+        border-radius: 5px;
+      "
+    >
+      My Skills
+    </h2>
+    <p style="position: relative; animation: slideRight 2s ease">
+      <b><u>Here are some of my skills:</u></b>
+    </p>
+    <ul>
+      <li>AutoCAD 2D & 3D Design</li>
+      <li>CNC Lathe, CNC Milling, EDM Wirecut</li>
+      <li>G-code & M-code Programming</li>
+      <li>Machine Designing</li>
+      <li>Technical Drawing & Drafting</li>
+      <li>Project Documentation & Video Editing</li>
+    </ul>
+    <h2
+      style="
+        background-color: yellow;
+        color: black;
+        padding: 8px;
+        border-radius: 5px;
+      "
+    >
+      Certifications
+    </h2>
+    <p style="position: relative; animation: slideRight 2s ease">
+      Some of my certifications include:
+    </p>
+    <ul>
+      <li>
+        <u><b>AutoCAD 2D Drafting (Certified)</b></u>
+      </li>
+      <li>
+        <u
+          ><b>Hands-on Training in CNC Lathe & Milling (CIPET Internship)</b></u
+        >
+      </li>
+    </ul>
+    <div
+      style="width: 500px; height: 400px; position: relative; overflow: hidden"
+    >
+      <img
+        src="certificate.jpg"
+        alt="certificate"
+        style="
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          animation: fadeInZoom 2s ease;
+        "
+      />
+    </div>
+    <img src="CIPET.jpg" alt="CIPET" style="width: 500px; height: 400px" />
+    <h2
+      style="
+        background-color: yellow;
+        color: black;
+        padding: 8px;
+        border-radius: 5px;
+      "
+    >
+      Projects & Experience
+    </h2>
+    <p>My projects and experience include:</p>
+    <ul>
+      <li>Gear Design, Star Blade, and Mechanical Part Modeling in AutoCAD</li>
+      <li>
+        Practical experience with CNC tools at CIPET during summer internship
+      </li>
+      <li>
+        Created multiple educational videos explaining AutoCAD concepts and CNC
+        applications
+      </li>
+    </ul>
+    <h2
+      style="
+        background-color: yellow;
+        color: black;
+        padding: 8px;
+        border-radius: 5px;
+      "
+    >
+      My Hobbies
+    </h2>
+    <ul>
+      <li>Creating new ideas from scratch</li>
+      <li>
+        Reading books
+        <span style="color: #00ffea"
+          >(My favorite book is "The Power of Your Subconscious Mind")</span
+        >
+      </li>
+      <li>I like challenges</li>
+      <li>Watching creative videos</li>
+    </ul>
+    <h2
+      style="
+        background-color: rgba(255, 255, 0, 0.8);
+        color: black;
+        padding: 8px;
+        border-radius: 5px;
+      "
+    >
+      My Dream Car
+    </h2>
+    <img
+      src="bmw.jpg"
+      alt="BMW sports car parked on a city street, sleek metallic body reflecting sunlight, surrounded by modern buildings and light traffic, atmosphere feels energetic and aspirational"
+      style="width: 500px; height: 400px"
+    />
+    <h2
+      style="
+        background-color: yellow;
+        color: black;
+        padding: 8px;
+        border-radius: 5px;
+      "
+    >
+      My Projects
+    </h2>
+    <h3>Project 1</h3>
+    <img src="carburator.jpg" alt="carburator" width="400" />
+    <h3>Project 2</h3>
+    <img src="wrench.jpg" alt="wrench" style="width: 500px; height: 400px" />
+    <h3>Project 3</h3>
+    <img src="bolero.png" alt="bolero" style="width: 500px; height: 400px" />
+    <h3>Project 4</h3>
+    <img src="gear.jpg" alt="gear" style="width: 500px; height: 400px" />
+    <h3>Project 5</h3>
+    <img src="piston.png" alt="piston" style="width: 500px; height: 400px" />
+    <h3>Project 6</h3>
+    <img
+      src="project6.jpg"
+      alt="project6"
+      style="width: 500px; height: 400px"
+    />
+    <h3>Project 7</h3>
+    <img
+      src="project7.jpg"
+      alt="project7"
+      style="width: 500px; height: 400px"
+    />
+    <h3>Project 8</h3>
+    <img
+      src="project8.jpg"
+      alt="project8"
+      style="width: 500px; height: 400px"
+    />
+    <h3>Project 9</h3>
+    <img
+      src="project9.jpg"
+      alt="project9"
+      style="width: 500px; height: 400px"
+    />
+    <h3>Project 10</h3>
+    <img
+      src="project10.jpg"
+      alt="project10"
+      style="width: 500px; height: 400px"
+    />
+    <h2><u>My 5 Project.</u></h2>
+    <img src="shaft.jpg" alt="shaft" style="width: 500px; height: 400px" />
+    <h2><u>My 6 Project.</u></h2>
+    <img
+      src="project6.jpg"
+      alt="project6"
+      style="width: 500px; height: 400px"
+    />
+    <h2><u>My 7 Project.</u></h2>
+    <img
+      src="project7.jpg"
+      alt="project7"
+      style="width: 500px; height: 400px"
+    />
+  </body>
+</html>
