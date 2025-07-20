@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nirav Sharma Portfolio</title>
+    <style>
+        body {
+            position: relative;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 50px;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url('NAMEBG.png') center center/cover no-repeat;
+            z-index: -2;
+        }
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.6);
+            z-index: -1;
+        }
+        .text-box {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            width: fit-content;
+        }
+        h1, h2, h3 {
+            background-color: yellow;
+            color: black;
+            padding: 8px 10px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        h1 {
+            white-space: nowrap;
+            animation: moveLeft 8s linear infinite;
+        }
+        .slideRight {
+            position: relative;
+            animation: slideRight 2s ease;
+        }
+        .fadeInZoom {
+            animation: fadeInZoom 2s ease;
+        }
+        @keyframes moveLeft {
+            0% { left: 50%; }
+            100% { left: -50%; }
+        }
+        @keyframes slideRight {
+            0% { left: -100px; opacity: 0; }
+            100% { left: 0; opacity: 1; }
+        }
+        @keyframes fadeInZoom {
+            0% { opacity: 0; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        img {
+            width: 500px;
+            height: 400px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-box">
+        <h1>Welcome to My Website</h1>
+        <p>
+            Nirav Sharma <b><u>Mechanical Engineer</u></b> | <b><u>AutoCAD Designer</u></b> | <b><u>CNC Enthusiast</u></b>
+        </p>
+        <ul>
+            <li><b style="color: rgb(0, 255, 213); text-decoration: underline;">About Me</b></li>
+        </ul>
+        <p>
+            Hello! I'm Nirav Sharma, a 20-year-old B.Tech Mechanical Engineering student at Uttaranchal University, Dehradun. With a strong academic foundation (CGPA of 7.85 in the first semester and 7.5 in the second), I'm passionate about automobile design, machine designing, and modern manufacturing technologies like CNC and EDM.
+        </p>
+        <p>
+            I specialize in AutoCAD 2D drafting and 3D modeling, and have earned certified training in both. My creative designs and technical skills are showcased on my YouTube channel, where I regularly upload project demonstrations and tutorials. I also actively engage on LinkedIn to present my skills, certifications, and project work.
+        </p>
+    </div>
+    <section>
+        <h2 class="slideRight">Social Links</h2>
+        <p class="slideRight">Connect with me on:</p>
+        <ul>
+            <li>YouTube Channel: <a href="https://youtube.com/@niravsharma_caddesigner?si=@niravsharma_caddesigner?s" target="_blank">Nirav Sharma CAD Designer</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/nirav-sharma-123456789/" target="_blank">Nirav Sharma</a></li>
+            <li><span style="color: rgb(0, 247, 255); font-weight: bold; text-decoration: underline;">Contact: 8146540929</span></li>
+        </ul>
+    </section>
+    <section>
+        <h2>My Projects</h2>
+        <p>Explore my AutoCAD projects and designs.</p>
+        <ul>
+            <li>Gear Design</li>
+            <li>Star Blade</li>
+            <li>Mechanical Part Modeling</li>
+        </ul>
+        <p>For more details, visit my <a href="https://www.youtube.com/channel/UCNiravSharma" target="_blank">YouTube Channel</a> or connect with me on <a href="https://www.linkedin.com/in/nirav-sharma-123456789/" target="_blank">LinkedIn</a>.</p>
+        <img src="certificate.jpg" alt="certificate" class="fadeInZoom">
+        <img src="CIPET.jpg" alt="CIPET">
+    </section>
+    <section>
+        <h2>My Skills</h2>
+        <p class="slideRight"><b><u>Here are some of my skills:</u></b></p>
+        <ul>
+            <li>AutoCAD 2D & 3D Design</li>
+            <li>CNC Lathe, CNC Milling, EDM Wirecut</li>
+            <li>G-code & M-code Programming</li>
+            <li>Machine Designing</li>
+            <li>Technical Drawing & Drafting</li>
+            <li>Project Documentation & Video Editing</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Certifications</h2>
+        <p class="slideRight">Some of my certifications include:</p>
+        <ul>
+            <li><b>AutoCAD 2D Drafting (Certified)</b></li>
+            <li><b>Hands-on Training in CNC Lathe & Milling (CIPET Internship)</b></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Projects & Experience</h2>
+        <ul>
+            <li>Gear Design, Star Blade, and Mechanical Part Modeling in AutoCAD</li>
+            <li>Practical experience with CNC tools at CIPET during summer internship</li>
+            <li>Created multiple educational videos explaining AutoCAD concepts and CNC applications</li>
+        </ul>
+    </section>
+    <section>
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Creating new ideas from scratch</li>
+            <li>Reading books <span style="color: #00ffea;">(My favorite book is "The Power of Your Subconscious Mind")</span></li>
+            <li>I like challenges</li>
+            <li>Watching creative videos</li>
+        </ul>
+    </section>
+    <section>
+        <h2 style="background-color: rgba(255, 255, 0, 0.8);">My Dream Car</h2>
+        <img src="bmw.jpg" alt="BMW sports car parked on a city street, sleek metallic body reflecting sunlight, surrounded by modern buildings and light traffic, atmosphere feels energetic and aspirational">
+    </section>
+    <section>
+        <h2>My Projects</h2>
+        <h3>Project 1</h3>
+        <img src="carburator.jpg" alt="carburator" width="400">
+        <h3>Project 2</h3>
+        <img src="wrench.jpg" alt="wrench">
+        <h3>Project 3</h3>
+        <img src="bolero.png" alt="bolero">
+        <h3>Project 4</h3>
+        <img src="gear.jpg" alt="gear">
+        <h3>Project 5</h3>
+        <img src="piston.png" alt="piston">
+        <h3>Project 6</h3>
+        <img src="project6.jpg" alt="project6">
+        <h3>Project 7</h3>
+        <img src="project7.jpg" alt="project7">
+        <h3>Project 8</h3>
+        <img src="project8.jpg" alt="project8">
+        <h3>Project 9</h3>
+        <img src="project9.jpg" alt="project9">
+        <h3>Project 10</h3>
+        <img src="project10.jpg" alt="project10">
+    </section>
+</body>
+</html>
